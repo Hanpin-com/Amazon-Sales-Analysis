@@ -56,35 +56,25 @@ Analyzed 100,000 transactions to evaluate revenue performance, growth trends, co
 CSV Data → SQLite Database → SQL KPI Engine → Business Logic Modules → Visualization Layer 
 
 ````
-## 📈 Visual Analytics
+## 📊 Visual Outputs
 
-> (Screenshots stored in `Amazon-Sales-Analysis-main/assets/` folder)
+### Revenue Trends
+![Daily Revenue Trend](assets/daily_revenue_trend.png)
+![Monthly Revenue Trend](assets/monthly_revenue_trend.png)
 
-### 📊 Revenue Trend Analysis
-1. [Daily Revenue Trend] (plt.savefig("assets/daily_revenue_trend.png", dpi=300))
----
-2. [Monthly Revenue Trend] (plt.savefig("assets/monthly_revenue_trend.png", dpi=300))
----
+### Revenue Breakdown
+![Revenue by Country (Top 10)](assets/revenue_country_top10.png)
+![Revenue by Category (Top 10)](assets/revenue_category_top10.png)
+![Revenue by Order Status](assets/revenue_order_status.png)
 
-### 🌎 Geographic & Segment Distribution
-3. [Revenue by Country] (plt.savefig("assets/revenue_country (top 10).png", dpi=300))
----
-4. [Revenue by Category] (plt.savefig("assets/revenue_products-category (top 10).png", dpi=300))
----
-5. [Revenue by order Status] (plt.savefig("assets/revenue_order-status.png", dpi=300))
----
+### Product & Brand Analysis
+![Top Products (Top 10)](assets/top_products_top10.png)
+![Top Brands](assets/top_brands.png)
 
-### 🛒 Product & Brand Analysis
-6. [Top products (Top 10)] (plt.savefig("assets/top_products (top 10).png", dpi=300))
----
-7. [Top Brands] (plt.savefig("assets/top_brands.png", dpi=300))
----
+### Payment & Correlation
+![Payment Method Distribution](assets/payment_method_distribution.png)
+![Correlation Heatmap](assets/correlation_heatmap.png)
 
-### 💳 Behavioral & Correlation Analysis
-8. [Payment Method Distributio] (plt.savefig("assets/payment_method_distribution.png", dpi=300))
----
-9. [Correlation Heatmap] (plt.savefig("assets/correlation_heatmap.png", dpi=300))
----
 
 ## ⚙️ Technical Highlights
 
