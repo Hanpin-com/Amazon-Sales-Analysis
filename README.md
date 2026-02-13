@@ -51,11 +51,11 @@ Analyzed 100,000 transactions to evaluate revenue performance, growth trends, co
 
 ## Architecture
 
-```
+
 
 CSV Data → SQLite Database → SQL KPI Engine → Business Logic Modules → Visualization Layer 
+```
 
-````
 ## 📊 Visual Outputs
 
 ### Revenue Trends
@@ -75,7 +75,7 @@ CSV Data → SQLite Database → SQL KPI Engine → Business Logic Modules → V
 ![Payment Method Distribution](assets/payment_method_distribution.png)
 ![Correlation Heatmap](assets/correlation_heatmap.png)
 
-
+````
 ## ⚙️ Technical Highlights
 
 - SQL-based KPI aggregation engine
